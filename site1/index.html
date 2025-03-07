@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teach eCommerce - Example</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <!-- Top bar (logo + search + cart) -->
+    <div class="top-bar">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" width="150" height="75">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products..." />
+        <button>Search</button>
+      </div>
+      <div class="cart">
+        <a href="#">🛒Cart (0)</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="newproducts.html">New Products</a></li>
+        <li><a href="computers.html">Computers</a></li>
+        <li><a href="compunents.html">Compunents</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="monitor.html">Monitores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+       <!-- Hero Section -->
+    <section class="hero">
+      <div class="video-background">
+        <video autoplay loop muted playsinline>
+          <source src="video.mp4/homepage.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="content">
+        <h1>Shop the Latest Trends</h1>
+        <p>Exclusive Products</p>
+        <button class="cta-button">Shop Now</button>
+      </div>
+  </section>
+ 
+    
+
+   
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/1_p047885_4_1_b6b029a9_thumbnail_1024.jpg" alt="Product 1" />
+          <h3>Computador Desktop Lenovo</h3>
+          <p class="price">$800</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+
+        <!-- Product Card 2 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/1_p070619_bffc6f22_thumbnail_1024.jpg" alt="Product 2" />
+          <h3>Computador Gaming Desktop Acer Nitro N50-650</h3>
+          <p class="price">$1200</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+
+        <!-- Product Card 3 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/ypi-ta24f0b-46t1e_center-angle-20_2153d1fd_thumbnail_1024.jpg" alt="Product 3" />
+          <h3>Computador Desktop Yeyian</h3>
+          <p class="price">$990</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+
+        <!-- Product Card 4 -->
+        <article class="product-card">
+          <div class="product-image-container">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/FromIceCat_5c43a5a3_thumbnail_4096.jpg" alt="Product 4" class="product-image"/>
+          <span class="sold-out-text">ESGOTADO</span>
+        </div>
+          <h3>Monitor Lenovo Legion R27qe IPS 27" QHD 16:9 180Hz Freesync</h3>
+          <p class="price">$---</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+
+        
+        <!-- Product Card 5 -->
+        <article class="product-card">
+          <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p066477_1__c17ca79a_thumbnail_4096.jpg" alt="Product 4" />
+          <h3>Teclado Mecânico Razer </h3>
+          <p class="price">$119</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+    </section>
+  </div>
+
+  <!-- Categories / Promotion -->
+    <section class="categories">
+      <h2>Browse by Category</h2>
+      <div class="category-grid">
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/ezgif-4-3a41e037d6_380dcd1f_thumbnail_4096_289d6ef6_thumbnail_1024.jpg');">          
+          <h3><Computers><a href="computers.html">Computers</a></h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p058928_a_156d8f8c_thumbnail_256.jpg');">
+          <h3><a href="compunents.html">Components</a></h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/1_327_14_c1a29d9c_thumbnail_256.jpg');">
+          <h3><a href="accessories.html">Accessories</a></h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/krom_kertz_front_rgb_1200x1200_54590195_thumbnail_256.jpg');">
+          <h3><a href="monitor.html">Monitores</a></h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Subscribe to our Newsletter</h2>
+      <p>Get updates about new products and special offers!</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are an informatic store online that sells everything you need for your setup at the best prices.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Help & FAQs</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Payment Options</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <p class="copyright">© 2025 ShopEasy. All rights reserved.</p>
+</footer>
+</body>
+</html>

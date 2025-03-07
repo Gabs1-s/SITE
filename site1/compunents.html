@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopEasy - Compunents</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <!-- Top bar (logo + search + cart) -->
+    <div class="top-bar">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" width="150" height="75">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products..." />
+        <button>Search</button>
+      </div>
+      <div class="cart">
+        <a href="#">🛒Cart (0)</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="newproducts.html">New Products</a></li>
+        <li><a href="computers.html">Computers</a></li>
+        <li><a href="compunents.html" class="active">Compunents</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="monitor.html">Monitores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Hero or Banner -->
+       <!-- Hero Section -->
+       <section class="hero">
+        <div class="video-background">
+          <video autoplay loop muted playsinline>
+            <source src="video.mp4/component.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="content">
+          <h1>Shop the Latest Trends</h1>
+          <p>Exclusive Products</p>
+          <button class="cta-button">Shop Now</button>
+        </div>
+    </section>
+
+      <!-- Featured Products -->
+      <section class="featured-products">
+        <h2>Compunents</h2>
+        <div class="products-grid">
+          <!-- Product Card 1 -->
+          <article class="product-card">
+            <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/0_1__1_6964e092_thumbnail_4096.jpeg" alt="Product 1" />
+            <h3>Processador Intel Core i5-14600K (14ª Geração) "Raptor Lake Refresh" 14-Core 2.6GHz c/Turbo 5.3GHz 24MB Cache Skt1700</h3>
+            <p class="price">$279</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </article>
+  
+          <!-- Product Card 2 -->
+          <article class="product-card">
+            <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/984154_1_48cfee6f_thumbnail_4096.jpg" alt="Product 2" />
+            <h3>Processador AMD Ryzen 7 5700X3D "Zen 3" 8-Core 3.0GHz c/ Turbo 4.1GHz 100MB Cache SktAM4</h3>
+            <p class="price">$250</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </article>
+  
+          <!-- Product Card 3 -->
+          <article class="product-card">
+            <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p039011_1_128fae3c_thumbnail_4096.jpg" alt="Product 3" />
+            <h3>Motherboard ATX Asus TUF Gaming H670-Pro WiFi D4 Skt1700</h3>
+            <p class="price">$200</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </article>
+  
+          <!-- Product Card 4 -->
+          <article class="product-card">
+            <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/12_03351760_thumbnail_4096.jpg" alt="Product 4" />
+            <h3>Placa Gráfica MSI NVIDIA GeForce RTX 5070 Ti "Blackwell" Gaming Trio OC Plus 16G GDDR7 DLSS4</h3>
+            <p class="price">$1130</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </article>
+  
+          <!-- Product Card 5 -->
+          <article class="product-card">
+            <img src="https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p052261_1_cf103517_thumbnail_4096.jpg" alt="Product 4" />
+            <h3>Memória RAM UDIMM Corsair Vengeance RGB RT 32GB (2x16GB) DDR4-3600MHz (Intel XMP) CL16 (16-20-20-38) 1.35V Preta </h3>
+            <p class="price">$95</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+
+        <!-- Categories / Promotion -->
+    <section class="categories">
+      <h2>Browse by Category</h2>
+      <div class="category-grid">
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/ezgif-4-3a41e037d6_380dcd1f_thumbnail_4096_289d6ef6_thumbnail_1024.jpg');">          
+          <h3><Computers><a href="computers.html">Computers</a></h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/p058928_a_156d8f8c_thumbnail_256.jpg');">
+          <h3><a href="compunents.html">Components</a></h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/1_327_14_c1a29d9c_thumbnail_256.jpg');">
+          <h3><a href="accessories.html">Accessories</a></h3>
+        </div>
+        <div class="category-item" style="background-image: url('https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/krom_kertz_front_rgb_1200x1200_54590195_thumbnail_256.jpg');">
+          <h3><a href="monitor.html">Monitores</a></h3>
+        </div>
+      </div>
+    </section>
+
+   
+       <!-- Newsletter -->
+       <section class="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Get updates about new products and special offers!</p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+   
+    <!-- FOOTER -->
+   <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are an informatic store online that sells everything you need for your setup at the best prices.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Help & FAQs</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Payment Options</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <p class="copyright">© 2025 ShopEasy. All rights reserved.</p>
+</footer>
+</body>
+</html>
